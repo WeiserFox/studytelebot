@@ -1,11 +1,11 @@
 from aiogram import Bot, Dispatcher, types
-from cfg import TOKEN
+from cfg import TOKEN # It imports the token. You should use your token.
 import asyncio
 import random
 
 proxy_url = 'http://proxy.server:3128'
 
-bot = Bot(token=TOKEN, proxy=proxy_url)
+bot = Bot(token=TOKEN, proxy=proxy_url) # use your token instead of TOKEN variable
 
 dp = Dispatcher(bot)
 
